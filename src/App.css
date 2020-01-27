@@ -1,0 +1,62 @@
+.App{
+  display: flex;
+  justify-content: space-around;
+}
+.container{
+  flex: 0 0 700px;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.btn{
+  padding: 5px 10px; 
+  cursor: pointer;
+  border-radius: 2px;
+  background: #fff;
+  border: 1px solid#cccccc;
+}
+.list{
+  flex: 1 1 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.list-item{
+  flex: 1 1 100%;
+  display: flex;
+  align-items: center;
+}
+.list-item:nth-child(even){
+  background: #ececec;
+}
+.list-item__name{
+  padding: 15px 15px;
+  flex: 1 1 50%;
+}
+.list-item__birth-date{
+  padding: 15px 15px;
+  flex: 1 1 35%;
+}
+.list-item__rate{
+  padding: 15px 15px;
+  flex: 1 1 15%;
+}
+.list-item-edit{
+  padding: 15px 15px;
+  flex: 0 0 50px;
+}
+.list-item-delete{
+  padding: 15px 15px;
+  flex: 0 0 50px;
+}
+.list-item__edit-btn{
+  cursor: pointer;
+}
+.list-item__delete-btn{
+  cursor: pointer;
+}
+.list_add-new-btn{
+  cursor: pointer;
+}
